@@ -1,0 +1,1 @@
+https://stackoverflow.com/a/9181068 - How to support UTF-8 encoding in Eclipse
