@@ -1,0 +1,25 @@
+h1 {
+    color: #445161;
+    font-size: 30px;
+}
+
+h2 {
+    color: #445161;
+    font-size: 25px;
+    line-height: 30px;
+}
+.text {
+    color: #333333;
+    line-height: 25px;
+}
+
+.bold {
+    color: #333333;
+    line-height: 14px;
+    font-weight: bold;
+}
+
+.red {
+    color: #ff0000;
+    line-height: 14px;
+}

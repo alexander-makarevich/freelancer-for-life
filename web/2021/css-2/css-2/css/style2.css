@@ -1,0 +1,87 @@
+/*
+font-family - устанавливает семейство шрифта,
+по умолчанию Times New Roman.
+font-family - наследуется, за исключением форм.
+заканчивают словом, описывающим тип шрифта.
+hot key ff->tab
+*/
+/*Показал текстом, что учел просьбы */
+.arial{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/*
+font-size - определяет размер шрифта.
+hot key fs->tab
+*/
+.fontsize30{
+    font-size: 30px;
+}
+
+/*
+font-style - определяет начертания шрифта. курсивный или наклонный.
+fsi -> font-style: italic;
+*/
+.italic{
+    font-style: italic;
+}
+
+/*
+font-weight - устанавливает насыщенность шрифта
+400 - по умолчанию
+fw700
+*/
+.font700{
+    font-weight: 700;
+}
+
+.red{
+    color: red;
+}
+
+/* tac */
+.textright{
+    text-align: right;
+}
+
+/* tdl */
+.decoration{
+    text-decoration: line-through;
+}
+
+/* смещение по горизонтали влево, по вертикали вниз, */
+/* размытие (чем больше тем невиднее) */
+.shadow{
+    text-shadow: 1px 1px 1px #000;
+}
+
+/*tt*/
+.uppercase{
+    text-transform: uppercase;
+}
+
+/*
+красная строка
+*/
+.ident{
+	text-indent: 50px;
+}
+
+/* определяет расстояние между буквами */
+.lsspacing{
+    letter-spacing: 5px;
+}
+
+.wordspacing {
+    word-spacing: 20px;
+}
+
+/* горизонтальная прокрутка у браузера, т.к. текст не переносится */
+.whitespace{
+    white-space: nowrap;
+}
+
+/* межстрочный интервал */
+.lineheight{
+    line-height: 20px;
+}
